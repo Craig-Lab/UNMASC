@@ -101,8 +101,8 @@ ax.YAxis.Exponent = -3;
 
 %% Export
 
-file_name1 = "Results/resnorm_D7.pdf";
-file_name2 = "Results/resnorm_D14.pdf";
+file_name1 = "resnorm_D7.pdf";
+file_name2 = "resnorm_D14.pdf";
 
 exportgraphics(fig1,file_name1)
 exportgraphics(fig2,file_name2)
