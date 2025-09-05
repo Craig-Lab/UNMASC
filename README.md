@@ -8,11 +8,11 @@ The data analyzed in this study were obtained from a publicly available source w
 ## INSTRUCTIONS:
 In the code, it is worth mentioning that we refer to D7 as the T cell differentiation stage and D14 as the T cell maturation stage, as per Michaels et al., 2021 (10.1126/sciadv.abn5522). 
 Cells types are denoted as follows:
-	PROT: ProT cells
-	CD4ISP: CD4 single positive cells
-	CD3N: Double positive CD3- cells
-	CD3P: Double positive CD3+ cells
-	SP: CD8 single positive cells
+	PROT: ProT cells  
+	CD4ISP: CD4 single positive cells  
+	CD3N: Double positive CD3- cells  
+	CD3P: Double positive CD3+ cells  
+	SP: CD8 single positive cells  
 
 The Data folder contains all the cytokine concentrations in ng/mL and the polynomial coefficients for the dose-responses from Michaels et al. (2021).
 
