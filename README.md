@@ -18,4 +18,7 @@ In each folder for figures and supplementary figures, run file containing "comma
 When necessary, a folder “Results” or “Figures” is included in the folder to store results files (.m files) and figures (in PDF). 
 
 ### SOFTWARE
-All of the code was written using MATLAB R2024b. The optimization toolbox is required to perform the fitting. 
+All of the code was written using MATLAB R2024b. The following toolboxes are required:  
+	- Optimization Toolbox  
+ 	- Statistics and Machine Learning Toolbox  
+  	- Symbolic Math Toolbox  
