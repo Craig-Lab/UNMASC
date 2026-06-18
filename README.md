@@ -26,4 +26,4 @@ When necessary, a folder “Figures” is included in the folder to store result
 The expected run time for each folder is <10 min.
 
 ### Data
-The data analyzed in this study were obtained from a publicly available source (10.1126/sciadv.abn5522, Tables S1-S7). The Data folder contains all the cytokine concentrations in ng/mL and the polynomial coefficients for the dose-responses from Michaels et al. (2022). We also used data generated from experiments tailored to this specific study (contained in file Cord Blood with the code).  
+The data analyzed in this study were obtained from a publicly available source (10.1126/sciadv.abn5522, Tables S1-S7). The iPSC folder contains all the cytokine concentrations in ng/mL and the polynomial coefficients for the dose-responses from Michaels et al. (2022). We also used data generated from experiments tailored to this specific study (contained in file Cord Blood with the code).  
