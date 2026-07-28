@@ -8,7 +8,7 @@ function lp = logposterior_hill(z, x, y, behavior)
         return
     end
 
-    % Log-normal prior parameters 
+    % Prior parameters 
     mu_logSlope = log(1.5);
     sd_logSlope = 0.3;
 

@@ -57,7 +57,7 @@ xlim([log10(0.1) log10(1000)])
 yticks([E0 E1])
 yticklabels(["E_0" "E_1"])
 xticks(C)
-xticklabels("C")
+xticklabels("EC_{50}")
 axis square
 xlabel("Log(agent)")
 %Set Line width
@@ -87,7 +87,7 @@ xlim([log10(0.1) log10(1000)])
 yticks([E01 E02 Emax1])
 yticklabels(["E_{01}" "E_{02}" "E_1\cdotE_2"])
 xticks([C1 C2])
-xticklabels(["C1" "C2"])
+xticklabels(["EC_{50,1}" "EC_{50,2}"])
 axis square
 xlabel("Log(agent)")
 

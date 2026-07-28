@@ -46,7 +46,7 @@ plot(drug,s11,'LineWidth',lw2,"Color",colors3,'LineStyle','--')
 hold on
 plot(drug,s12,"LineWidth",lw2,"Color",colors2,"LineStyle","--")
 hold off
-title(strcat("C_1 = ", mat2str(C1(1))))
+title(strcat("EC_{50,1} = ", mat2str(C1(1))))
 ylim([0 1.1])
 % ylabel("Effect")
 axis square
@@ -60,7 +60,7 @@ plot(drug,s21,'LineWidth',lw2,"Color",colors3,'LineStyle','--')
 hold on
 plot(drug,s22,"LineWidth",lw2,"Color",colors2,"LineStyle","--")
 hold off
-title(strcat("C_1 = ", mat2str(C1(2))))
+title(strcat("EC_{50,1} = ", mat2str(C1(2))))
 ylim([0 1.1])
 yticks([])
 axis square
@@ -74,7 +74,7 @@ plot(drug,s31,'LineWidth',lw2,"Color",colors3,'LineStyle','--')
 hold on
 plot(drug,s32,"LineWidth",lw2,"Color",colors2,"LineStyle","--")
 hold off
-title(strcat("C_1 = ", mat2str(C1(3))))
+title(strcat("EC_{50,1} = ", mat2str(C1(3))))
 ylim([0 1.1])
 yticks([])
 axis square
@@ -88,7 +88,7 @@ plot(drug,s41,'LineWidth',lw2,"Color",colors3,'LineStyle','--')
 hold on
 plot(drug,s42,"LineWidth",lw2,"Color",colors2,"LineStyle","--")
 hold off
-title(strcat("C_1 = ", mat2str(C1(4))))
+title(strcat("EC_{50,1} = ", mat2str(C1(4))))
 ylim([0 1.1])
 yticks([])
 axis square
