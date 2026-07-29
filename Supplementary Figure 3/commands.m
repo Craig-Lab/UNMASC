@@ -68,10 +68,10 @@ zticks([])
 xlim([log10(drug1(1)) log10(drug1(end))])
 ylim([log10(drug2(1)) log10(drug2(end))])
 zlim([0 1])
-xlh = xlabel("Log(Agent 1)","Rotation",22.5);
+xlh = xlabel("Log_{10}(Agent 1)","Rotation",22.5);
 xlh.Position(1) = xlh.Position(1)-2; 
 xlh.Position(2) = xlh.Position(2)-1;
-ylh = ylabel("Log(Agent 2)","Rotation",-32.5);
+ylh = ylabel("Log_{10}(Agent 2)","Rotation",-32.5);
 ylh.Position(1) = ylh.Position(1)-1;
 ylh.Position(2) = ylh.Position(2)-2;
 zlabel("Effect")
@@ -92,9 +92,9 @@ plot(log10(drug1),Eff1(1,:),'Color',lineColor3,'LineWidth',lineWidth)
 xlim([-4 4])
 ylim([0 E2+0.1])
 xticks([C11 C12])
-xticklabels({"C_{11}","C_{12}"})
+xticklabels({"EC_{50,11}","EC_{50,12}"})
 yticks([E3 0.5*E2 E2])
-xlabel("Log(Agent 1)")
+xlabel("Log_{10}(Agent 1)")
 ylabel("Effect")
 axis square
 
@@ -112,9 +112,9 @@ plot(log10(drug2),Eff1(:,1),'Color',lineColor3,'LineWidth',lineWidth)
 xlim([-4 4])
 ylim([0 E1+0.1])
 xticks([C21 C22])
-xticklabels({"C_{21}","C_{22}"})
+xticklabels({"EC_{50,21}","EC_{50,22}"})
 yticks([E3 0.5*E1 E1])
-xlabel("Log(Agent 2)")
+xlabel("Log_{10}(Agent 2)")
 ylabel("Effect")
 axis square
 
@@ -177,10 +177,10 @@ zticks([])
 xlim([log10(drug1(1)) log10(drug1(end))])
 ylim([log10(drug2(1)) log10(drug2(end))])
 zlim([0 1])
-xlh = xlabel("Log(Agent 1)","Rotation",22.5);
+xlh = xlabel("Log_{10}(Agent 1)","Rotation",22.5);
 xlh.Position(1) = xlh.Position(1)-2; 
 xlh.Position(2) = xlh.Position(2)-1;
-ylh = ylabel("Log(Agent 2)","Rotation",-32.5);
+ylh = ylabel("Log_{10}(Agent 2)","Rotation",-32.5);
 ylh.Position(1) = ylh.Position(1)-1;
 ylh.Position(2) = ylh.Position(2)-2;
 zlabel("Effect")
@@ -197,9 +197,9 @@ plot(log10(drug1),Eff2(1,:),'Color',lineColor3,'LineWidth',lineWidth)
 xlim([-4 4])
 ylim([0 E2+0.1])
 xticks(C11)
-xticklabels({"C_{11}","C_{12}"})
+xticklabels({"EC_{50,11}","EC_{50,12}"})
 yticks([E3 0.5*E2 E2])
-xlabel("Log(Agent 1)")
+xlabel("Log_{10}(Agent 1)")
 ylabel("Effect")
 axis square
 
@@ -217,9 +217,9 @@ plot(log10(drug2),Eff2(:,1),'Color',lineColor3,'LineWidth',lineWidth)
 xlim([-4 4])
 ylim([0 E1+0.1])
 xticks([C21 C22])
-xticklabels({"C_{21}","C_{22}"})
+xticklabels({"EC_{50,21}","EC_{50,22}"})
 yticks([E3 0.5*E1 E1])
-xlabel("Log(Agent 2)")
+xlabel("Log_{10}(Agent 2)")
 ylabel("Effect")
 axis square
 
@@ -284,10 +284,10 @@ zticks([])
 xlim([log10(drug1(1)) log10(drug1(end))])
 ylim([log10(drug2(1)) log10(drug2(end))])
 zlim([0 1])
-xlh = xlabel("Log(Agent 1)","Rotation",22.5);
+xlh = xlabel("Log_{10}(Agent 1)","Rotation",22.5);
 xlh.Position(1) = xlh.Position(1)-2; 
 xlh.Position(2) = xlh.Position(2)-1;
-ylh = ylabel("Log(Agent 2)","Rotation",-32.5);
+ylh = ylabel("Log_{10}(Agent 2)","Rotation",-32.5);
 ylh.Position(1) = ylh.Position(1)-1;
 ylh.Position(2) = ylh.Position(2)-2;
 zlabel("Effect")
@@ -307,9 +307,9 @@ plot(log10(drug1),Eff3(1,:),'Color',lineColor3,'LineWidth',lineWidth)
 xlim([-4 4])
 ylim([0 1])
 xticks([C11 C12])
-xticklabels({"C_{11}","C_{12}"})
+xticklabels({"EC_{50,11}","EC_{50,12}"})
 yticks([E2 1-(1-E2)/2 E3])
-xlabel("Log(Agent 1)")
+xlabel("Log_{10}(Agent 1)")
 ylabel("Effect")
 axis square
 ax2.LineWidth = 2;
@@ -327,9 +327,9 @@ plot(log10(drug2),Eff3(:,1),'Color',lineColor3,'LineWidth',lineWidth)
 xlim([-4 4])
 ylim([0 1])
 xticks([C21 C22])
-xticklabels({"C_{21}","C_{22}"})
+xticklabels({"EC_{50,21}","EC_{50,22}"})
 yticks([E1 1-(1-E1)/2 E3])
-xlabel("Log(Agent 2)")
+xlabel("Log_{10}(Agent 2)")
 ylabel("Effect")
 axis square
 ax3.LineWidth = 2;
@@ -396,10 +396,10 @@ zticks([])
 xlim([log10(drug1(1)) log10(drug1(end))])
 ylim([log10(drug2(1)) log10(drug2(end))])
 zlim([0 1])
-xlh = xlabel("Log(Agent 1)","Rotation",22.5);
+xlh = xlabel("Log_{10}(Agent 1)","Rotation",22.5);
 xlh.Position(1) = xlh.Position(1)-2; 
 xlh.Position(2) = xlh.Position(2)-1;
-ylh = ylabel("Log(Agent 2)","Rotation",-32.5);
+ylh = ylabel("Log_{10}(Agent 2)","Rotation",-32.5);
 ylh.Position(1) = ylh.Position(1)-1;
 ylh.Position(2) = ylh.Position(2)-2;
 zlabel("Effect")
@@ -419,9 +419,9 @@ plot(log10(drug1),Eff4(1,:),'Color',lineColor3,'LineWidth',lineWidth)
 xlim([-4 4])
 ylim([E2-0.1 E3+0.1])
 xticks([C11 C12])
-xticklabels({"C_{11}","C_{12}"})
+xticklabels({"EC_{50,11}","EC_{50,12}"})
 yticks([E2 E3-(E3-E2)/2 E3])
-xlabel("Log(Agent 1)")
+xlabel("Log_{10}(Agent 1)")
 ylabel("Effect")
 axis square
 ax2.LineWidth = 2;
@@ -439,9 +439,9 @@ plot(log10(drug2),Eff4(:,1),'Color',lineColor3,'LineWidth',lineWidth)
 xlim([-4 4])
 ylim([0 E1+0.1])
 xticks([C21 C22])
-xticklabels({"C_{21}","C_{22}"})
+xticklabels({"EC_{50,21}","EC_{50,22}"})
 yticks([E3 E3+(E1-E3)/2 E1])
-xlabel("Log(Agent 2)")
+xlabel("Log_{10}(Agent 2)")
 ylabel("Effect")
 axis square
 ax3.LineWidth = 2;
